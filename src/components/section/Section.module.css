@@ -1,0 +1,12 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #4b57ab;
+}
+.sectionTitle {
+  text-align: center;
+}
+.articleContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}

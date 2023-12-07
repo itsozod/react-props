@@ -1,0 +1,24 @@
+.articleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightskyblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+.articleCard:hover {
+  box-shadow: 2px 2px 3px green;
+}
+.subtitle {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 5px red;
+}
+.articleImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

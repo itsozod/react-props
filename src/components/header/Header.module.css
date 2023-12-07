@@ -1,0 +1,23 @@
+.header {
+  background-color: #4e878c;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.nameContainer {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.roleContainer {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin: 10px;
+  font-weight: bold;
+}
